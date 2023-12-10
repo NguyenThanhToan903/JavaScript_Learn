@@ -99,8 +99,21 @@
 // }
 // let a = 3, b = 4;
 // console.log(`Tong hai so ${a} + ${b} = ${sum(a, b)}`);
-let sum = (a, b) => {
-    return a + b;
+
+//Arrow Function
+// let sum = (a, b) => {
+//     return a + b;
+// }
+
+// console.log(sum(5, 6));
+
+let obj = {
+    name: 'Toan',
+    address: "Can Tho",
+    getName: function(){
+        return this.name;
+    }
 }
 
-console.log(sum(5, 6));
+
+console.log("My name:", obj.getName());
