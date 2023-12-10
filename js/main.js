@@ -98,4 +98,9 @@
 //     return a+b;
 // }
 // let a = 3, b = 4;
-// console.log(`Tong hai so ${a} + ${b} = ${sum(a, b)}`);c
+// console.log(`Tong hai so ${a} + ${b} = ${sum(a, b)}`);
+let sum = (a, b) => {
+    return a + b;
+}
+
+console.log(sum(5, 6));
