@@ -157,3 +157,8 @@ let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // });
 
 // console.log(reduce);
+
+let arrS = [1, 5, 9, 2, 5, 4];
+
+let sort = arrS.sort((a, b) => a - b);
+console.log(sort);
