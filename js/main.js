@@ -105,25 +105,25 @@
 
 // console.log(sum(5, 6));
 
-let sum = (a, b, callback) => {
-    let tong = a + b;
-    // setTimeout(() => {
-    //     callback(tong);
-    // }, 10000);
-    let i = 0,
-        timer = setInterval(() => {
-            callback(tong);
-            i++;
-            if (i === 5) {
-                clearInterval(timer);
-            }
-        }, 1000);
-};
+// let sum = (a, b, callback) => {
+//     let tong = a + b;
+//     // setTimeout(() => {
+//     //     callback(tong);
+//     // }, 10000);
+//     let i = 0,
+//         timer = setInterval(() => {
+//             callback(tong);
+//             i++;
+//             if (i === 5) {
+//                 clearInterval(timer);
+//             }
+//         }, 1000);
+// };
 
-let printTong = (message) => {
-    console.log(">>> check data: ", message);
-};
+// let printTong = (message) => {
+//     console.log(">>> check data: ", message);
+// };
 
-sum(5, 6, printTong);
+// sum(5, 6, printTong);
 
-//settimeout()
+// //settimeout()
