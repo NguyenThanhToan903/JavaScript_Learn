@@ -93,3 +93,9 @@
 //   }
 
 //   console.log('Today is:', day);
+
+function sum(a, b){
+    return a+b;
+}
+let a = 3, b = 4;
+console.log(`Tong hai so ${a} + ${b} = ${sum(a, b)}`);
