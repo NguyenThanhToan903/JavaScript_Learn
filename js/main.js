@@ -127,3 +127,16 @@
 // sum(5, 6, printTong);
 
 // //settimeout()
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// let filter = arr.filter((i, d) => {
+//     console.log(`>>>Check item: ${i}, index: ${d}`);
+//     return i && i > 5;
+// });
+// console.log(filter);
+let filter = arr.find((i, d) => {
+    // console.log(`>>>Check item: ${i}, index: ${d}`);
+    return i && i === 5;
+});
+console.log(filter);
