@@ -107,13 +107,13 @@
 
 // console.log(sum(5, 6));
 
-let obj = {
-    name: 'Toan',
-    address: "Can Tho",
-    getName: function(){
-        return this.name;
-    }
-}
+// let obj = {
+//     name: 'Toan',
+//     address: "Can Tho",
+//     getName: function(){
+//         return this.name;
+//     }
+// }
 
 
-console.log("My name:", obj.getName());
+// console.log("My name:", obj.getName());
