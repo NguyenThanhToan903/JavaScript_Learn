@@ -151,3 +151,9 @@ let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // let map2Arr = arr.map((x) => x * x);
 // console.log(map2Arr);
+
+let reduce = arr.reduce((item, index) => {
+    return item + 1;
+});
+
+console.log(reduce);
