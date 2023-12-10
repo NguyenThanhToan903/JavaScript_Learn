@@ -54,9 +54,17 @@
 
 let arr = ['Apple', 'Samsung', 'Nokia', 'Huawei'];
 
-let i = 0;
+// let i = 0;
 
+// while(i < arr.length){
+//     console.log('Hang: ', arr[i]);
+//     i++;
+// }
+
+let i = 0;
 while(i < arr.length){
-    console.log('Hang: ', arr[i]);
+    if(arr[i].length === 7){
+        console.log('Hang co 7 chu: ', arr[i]);
+    }
     i++;
 }
