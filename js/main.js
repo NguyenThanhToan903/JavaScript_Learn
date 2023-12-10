@@ -35,7 +35,6 @@
 // d = 5;
 // d = ['11'];
 
-
 //Loop
 // let i = 0;
 // for(i = 1; i < 10; i++){
@@ -50,7 +49,6 @@
 // }
 
 // console.log('check value: ',i);
-
 
 // let arr = ['Apple', 'Samsung', 'Nokia', 'Huawei'];
 
@@ -107,13 +105,25 @@
 
 // console.log(sum(5, 6));
 
-// let obj = {
-//     name: 'Toan',
-//     address: "Can Tho",
-//     getName: function(){
-//         return this.name;
-//     }
-// }
+let sum = (a, b, callback) => {
+    let tong = a + b;
+    // setTimeout(() => {
+    //     callback(tong);
+    // }, 10000);
+    let i = 0,
+        timer = setInterval(() => {
+            callback(tong);
+            i++;
+            if (i === 5) {
+                clearInterval(timer);
+            }
+        }, 1000);
+};
 
+let printTong = (message) => {
+    console.log(">>> check data: ", message);
+};
 
-// console.log("My name:", obj.getName());
+sum(5, 6, printTong);
+
+//settimeout()
