@@ -50,3 +50,13 @@
 // }
 
 // console.log('check value: ',i);
+
+
+let arr = ['Apple', 'Samsung', 'Nokia', 'Huawei'];
+
+let i = 0;
+
+while(i < arr.length){
+    console.log('Hang: ', arr[i]);
+    i++;
+}
