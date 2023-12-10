@@ -37,16 +37,16 @@
 
 
 //Loop
-let i = 0;
-for(i = 1; i < 10; i++){
-    console.log(i);
-}
+// let i = 0;
+// for(i = 1; i < 10; i++){
+//     console.log(i);
+// }
 
-console.log('check value: ',i);
+// console.log('check value: ',i);
 
-i = 0;
-for(let i = 1; i < 10; i++){
-    console.log(i);
-}
+// i = 0;
+// for(let i = 1; i < 10; i++){
+//     console.log(i);
+// }
 
-console.log('check value: ',i);
+// console.log('check value: ',i);
