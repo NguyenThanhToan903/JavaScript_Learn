@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+p {
+    /* font-size: 24px; */
+    padding: 3px 32px;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: rgb(255, 161, 47);
+    padding: 10px 16px;
+}
+h4,
+h3 {
+    margin: 0 16px;
+    padding: 4px 16px;
+}
+
+ul {
+    padding: 0 60px;
+}
